@@ -18,7 +18,6 @@ public class CreateNewIssueWithAttachment extends BaseClass{
 		.multiPart(new File("./jiraassignmentsdata/createissue3.json"))
 		.post("issue/{issue_key}/attachments")
 		.then().assertThat().statusCode(200).extract().response();
-		
 	}
 
 }

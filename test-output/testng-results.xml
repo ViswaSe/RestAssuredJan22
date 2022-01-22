@@ -1,67 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5543" started-at="2022-01-18T13:54:05Z" finished-at="2022-01-18T13:54:11Z">
+  <suite name="Default suite" duration-ms="3378" started-at="2022-01-22T15:47:36Z" finished-at="2022-01-22T15:47:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5543" started-at="2022-01-18T13:54:05Z" finished-at="2022-01-18T13:54:11Z">
-      <class name="week2.assignments.UpdateIssueWithDescription">
-        <test-method status="PASS" signature="settingPrerequisiteData()[pri:0, instance:week2.assignments.UpdateIssueWithDescription@18355a8]" name="settingPrerequisiteData" is-config="true" duration-ms="873" started-at="2022-01-18T13:54:04Z" finished-at="2022-01-18T13:54:05Z">
+    <test name="Default test" duration-ms="3378" started-at="2022-01-22T15:47:36Z" finished-at="2022-01-22T15:47:39Z">
+      <class name="week3.assignments.VerifySchemaInCreatingJIRAIssue">
+        <test-method status="PASS" signature="verifySchemaInCreateIssue()[pri:0, instance:week3.assignments.VerifySchemaInCreatingJIRAIssue@3a8624]" name="verifySchemaInCreateIssue" duration-ms="3351" started-at="2022-01-22T15:47:36Z" finished-at="2022-01-22T15:47:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- settingPrerequisiteData -->
-        <test-method status="PASS" signature="updateIssueWithDescription()[pri:0, instance:week2.assignments.UpdateIssueWithDescription@18355a8]" name="updateIssueWithDescription" duration-ms="597" started-at="2022-01-18T13:54:09Z" depends-on-methods="week2.assignments.CreateJIRAissuesUsingFiles.createJIRAissues" finished-at="2022-01-18T13:54:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateIssueWithDescription -->
-        <test-method status="PASS" signature="afterMethodCall()[pri:0, instance:week2.assignments.UpdateIssueWithDescription@18355a8]" name="afterMethodCall" is-config="true" duration-ms="0" started-at="2022-01-18T13:54:10Z" finished-at="2022-01-18T13:54:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCall -->
-      </class> <!-- week2.assignments.UpdateIssueWithDescription -->
-      <class name="week2.assignments.CreateJIRAissuesUsingFiles">
-        <test-method status="PASS" signature="createJIRAissues(java.lang.String)[pri:0, instance:week2.assignments.CreateJIRAissuesUsingFiles@1fa1d9b]" name="createJIRAissues" duration-ms="2996" started-at="2022-01-18T13:54:05Z" data-provider="fetchData" finished-at="2022-01-18T13:54:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[./jiraassignmentsdata/createissue4.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createJIRAissues -->
-        <test-method status="PASS" signature="afterMethodCall()[pri:0, instance:week2.assignments.CreateJIRAissuesUsingFiles@1fa1d9b]" name="afterMethodCall" is-config="true" duration-ms="17" started-at="2022-01-18T13:54:08Z" finished-at="2022-01-18T13:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCall -->
-        <test-method status="PASS" signature="createJIRAissues(java.lang.String)[pri:0, instance:week2.assignments.CreateJIRAissuesUsingFiles@1fa1d9b]" name="createJIRAissues" duration-ms="983" started-at="2022-01-18T13:54:08Z" data-provider="fetchData" finished-at="2022-01-18T13:54:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[./jiraassignmentsdata/createissue5.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createJIRAissues -->
-        <test-method status="PASS" signature="afterMethodCall()[pri:0, instance:week2.assignments.CreateJIRAissuesUsingFiles@1fa1d9b]" name="afterMethodCall" is-config="true" duration-ms="1" started-at="2022-01-18T13:54:09Z" finished-at="2022-01-18T13:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCall -->
-      </class> <!-- week2.assignments.CreateJIRAissuesUsingFiles -->
-      <class name="week2.assignments.DeleteIssueUsingChaining">
-        <test-method status="PASS" signature="deleteIssueUsingChaining()[pri:0, instance:week2.assignments.DeleteIssueUsingChaining@d25987]" name="deleteIssueUsingChaining" duration-ms="918" started-at="2022-01-18T13:54:10Z" depends-on-methods="week2.assignments.UpdateIssueWithDescription.updateIssueWithDescription" finished-at="2022-01-18T13:54:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteIssueUsingChaining -->
-        <test-method status="PASS" signature="afterMethodCall()[pri:0, instance:week2.assignments.DeleteIssueUsingChaining@d25987]" name="afterMethodCall" is-config="true" duration-ms="0" started-at="2022-01-18T13:54:11Z" finished-at="2022-01-18T13:54:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCall -->
-      </class> <!-- week2.assignments.DeleteIssueUsingChaining -->
+        </test-method> <!-- verifySchemaInCreateIssue -->
+      </class> <!-- week3.assignments.VerifySchemaInCreatingJIRAIssue -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

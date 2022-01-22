@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 public class BaseClass {
 	
 	public String username="vidhyavishveshwar@gmail.com";
-	public String password="765jZCfMfQxMfQ19IHKjA111";
+	public String password="oKrHjYL6fkwm2KDHQB89ED10";
 	
 	public static RequestSpecification requestSpecification;
 	public static Response response;

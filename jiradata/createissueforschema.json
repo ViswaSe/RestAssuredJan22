@@ -1,0 +1,16 @@
+{
+	"fields": 
+	{
+		"project": 
+		{
+			"key": "RA"
+		},
+
+		"summary": "Hey Vishveshwar - creating this issue for Schema Validations",
+		"description": "Hey Vishveshwar - creating this issue for Schema Validations using the REST API",
+		"issuetype": 
+		{
+			"name": "Bug"
+		}
+	}
+}
