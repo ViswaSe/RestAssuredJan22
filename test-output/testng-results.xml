@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3378" started-at="2022-01-22T15:47:36Z" finished-at="2022-01-22T15:47:39Z">
+  <suite name="Default suite" duration-ms="8001" started-at="2022-01-23T05:46:43Z" finished-at="2022-01-23T05:46:51Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ChangeRequestRunner@1952a2d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="3378" started-at="2022-01-22T15:47:36Z" finished-at="2022-01-22T15:47:39Z">
-      <class name="week3.assignments.VerifySchemaInCreatingJIRAIssue">
-        <test-method status="PASS" signature="verifySchemaInCreateIssue()[pri:0, instance:week3.assignments.VerifySchemaInCreatingJIRAIssue@3a8624]" name="verifySchemaInCreateIssue" duration-ms="3351" started-at="2022-01-22T15:47:36Z" finished-at="2022-01-22T15:47:39Z">
+    <test name="Default test" duration-ms="8001" started-at="2022-01-23T05:46:43Z" finished-at="2022-01-23T05:46:51Z">
+      <class name="runner.ChangeRequestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.ChangeRequestRunner@1952a2d]" name="setUpClass" is-config="true" duration-ms="213" started-at="2022-01-23T05:46:43Z" finished-at="2022-01-23T05:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11a10ac]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySchemaInCreateIssue -->
-      </class> <!-- week3.assignments.VerifySchemaInCreatingJIRAIssue -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ChangeRequestRunner@1952a2d]" name="runScenario" duration-ms="4541" started-at="2022-01-23T05:46:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-23T05:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a New Change Request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Change Request Module in Service Now]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ChangeRequestRunner@1952a2d]" name="runScenario" duration-ms="3215" started-at="2022-01-23T05:46:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-23T05:46:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a New Change Request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Change Request Module in Service Now]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.ChangeRequestRunner@1952a2d]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2022-01-23T05:46:51Z" finished-at="2022-01-23T05:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.ChangeRequestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

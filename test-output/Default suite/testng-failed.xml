@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week3.assignments.VerifySchemaInCreatingJIRAIssue">
+      <class name="runner.ChangeRequestRunner">
         <methods>
-          <include name="verifySchemaInCreateIssue"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- week3.assignments.VerifySchemaInCreatingJIRAIssue -->
+      </class> <!-- runner.ChangeRequestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
