@@ -11,7 +11,7 @@ public class Hooks {
 	public void init_jira()
 	{
 		String username="vidhyavishveshwar@gmail.com";
-		String password="1x4ZpHAzDDP90DoC3WJr0B0B";	
+		String password="naXKGht9fUq3jfWbpGAU11CE";	
 		
 		RestAssured.baseURI="https://restapi2022.atlassian.net/rest/api/2/issue/";
 		RestAssured.authentication=RestAssured.preemptive().basic(username, password);

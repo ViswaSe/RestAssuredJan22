@@ -5,7 +5,7 @@
     <classes>
       <class name="atlassian.jira.testrunner.JiraTestRunner">
         <methods>
-          <include name="runScenario" invocation-numbers="2"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>

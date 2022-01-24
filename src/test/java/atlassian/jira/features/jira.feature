@@ -29,7 +29,20 @@ Examples:
 |filename|
 |updateissue1.json|
 
-@regression
+@production
+Scenario Outline: Get the random issue
+Given Add the necessary request specification
+And Get the random number using program using max value as <max>
+And Place the request for Get
+And Verify the status code as 200
+And Print the response body with status code
+And Get the issue key from the response
+
+Examples:
+|max|
+|128|
+
+@regression @production
 Scenario: Delete JIRA issue by passing the issue key
 Given Add the necessary request specification
 When Place the request for Delete
