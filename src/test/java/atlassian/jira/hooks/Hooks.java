@@ -1,4 +1,4 @@
-package atlassian.jira.steps;
+package atlassian.jira.hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -11,7 +11,7 @@ public class Hooks {
 	public void init_jira()
 	{
 		String username="vidhyavishveshwar@gmail.com";
-		String password="naXKGht9fUq3jfWbpGAU11CE";	
+		String password="Pdl943XR8rhJrkr5lOOg08DF";	
 		
 		RestAssured.baseURI="https://restapi2022.atlassian.net/rest/api/2/issue/";
 		RestAssured.authentication=RestAssured.preemptive().basic(username, password);

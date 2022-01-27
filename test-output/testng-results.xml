@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2789" started-at="2022-01-24T07:24:11Z" finished-at="2022-01-24T07:24:13Z">
+  <suite name="Default suite" duration-ms="5918" started-at="2022-01-27T15:29:14Z" finished-at="2022-01-27T15:29:20Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="2789" started-at="2022-01-24T07:24:11Z" finished-at="2022-01-24T07:24:13Z">
+    <test name="Default test" duration-ms="5918" started-at="2022-01-27T15:29:14Z" finished-at="2022-01-27T15:29:20Z">
       <class name="atlassian.jira.testrunner.JiraTestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="setUpClass" is-config="true" duration-ms="220" started-at="2022-01-24T07:24:11Z" finished-at="2022-01-24T07:24:11Z">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="setUpClass" is-config="true" duration-ms="261" started-at="2022-01-27T15:29:14Z" finished-at="2022-01-27T15:29:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@198635e]]>
+                <![CDATA[org.testng.TestRunner@77a1ca]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" duration-ms="1949" started-at="2022-01-24T07:24:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T07:24:13Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" duration-ms="3044" started-at="2022-01-27T15:29:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-27T15:29:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Get the random issue"]]>
+                <![CDATA["Create JIRA issue using files in the request body"]]>
               </value>
             </param>
             <param index="1">
@@ -37,7 +37,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" duration-ms="620" started-at="2022-01-24T07:24:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T07:24:13Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" duration-ms="787" started-at="2022-01-27T15:29:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-27T15:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create JIRA issue using files in the request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[JIRA - Atlassian]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" duration-ms="689" started-at="2022-01-27T15:29:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-27T15:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update JIRA issue using files in the request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[JIRA - Atlassian]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="runScenario" duration-ms="1120" started-at="2022-01-27T15:29:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-27T15:29:20Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2022-01-24T07:24:13Z" finished-at="2022-01-24T07:24:13Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:atlassian.jira.testrunner.JiraTestRunner@1ef45e3]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2022-01-27T15:29:20Z" finished-at="2022-01-27T15:29:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
