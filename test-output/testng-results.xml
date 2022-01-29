@@ -2,66 +2,66 @@
 <testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5794" started-at="2022-01-29T15:28:37Z" finished-at="2022-01-29T15:28:43Z">
+  <suite name="Suite" duration-ms="4791" started-at="2022-01-29T15:49:17Z" finished-at="2022-01-29T15:49:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5794" started-at="2022-01-29T15:28:37Z" finished-at="2022-01-29T15:28:43Z">
+    <test name="Test" duration-ms="4791" started-at="2022-01-29T15:49:17Z" finished-at="2022-01-29T15:49:22Z">
       <class name="services.CreateNewJIRAIssue">
-        <test-method status="PASS" signature="setup()[pri:0, instance:services.CreateNewJIRAIssue@9621f3]" name="setup" is-config="true" duration-ms="844" started-at="2022-01-29T15:28:36Z" finished-at="2022-01-29T15:28:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:services.CreateNewJIRAIssue@1a590ba]" name="setup" is-config="true" duration-ms="581" started-at="2022-01-29T15:49:17Z" finished-at="2022-01-29T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.CreateNewJIRAIssue@9621f3]" name="setupRequestSpecification" is-config="true" duration-ms="332" started-at="2022-01-29T15:28:37Z" finished-at="2022-01-29T15:28:37Z">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.CreateNewJIRAIssue@1a590ba]" name="setupRequestSpecification" is-config="true" duration-ms="205" started-at="2022-01-29T15:49:17Z" finished-at="2022-01-29T15:49:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupRequestSpecification -->
-        <test-method status="PASS" signature="createNewJIRAIssue()[pri:0, instance:services.CreateNewJIRAIssue@9621f3]" name="createNewJIRAIssue" duration-ms="3342" started-at="2022-01-29T15:28:38Z" finished-at="2022-01-29T15:28:41Z">
+        <test-method status="PASS" signature="createNewJIRAIssue()[pri:0, instance:services.CreateNewJIRAIssue@1a590ba]" name="createNewJIRAIssue" duration-ms="2633" started-at="2022-01-29T15:49:18Z" finished-at="2022-01-29T15:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewJIRAIssue -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.CreateNewJIRAIssue@9621f3]" name="tearDown" is-config="true" duration-ms="27" started-at="2022-01-29T15:28:41Z" finished-at="2022-01-29T15:28:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.CreateNewJIRAIssue@1a590ba]" name="tearDown" is-config="true" duration-ms="31" started-at="2022-01-29T15:49:20Z" finished-at="2022-01-29T15:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- services.CreateNewJIRAIssue -->
       <class name="services.GetAllJIRAIssues">
-        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.GetAllJIRAIssues@17f3d0]" name="setupRequestSpecification" is-config="true" duration-ms="2" started-at="2022-01-29T15:28:42Z" finished-at="2022-01-29T15:28:42Z">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.GetAllJIRAIssues@1f9b098]" name="setupRequestSpecification" is-config="true" duration-ms="9" started-at="2022-01-29T15:49:22Z" finished-at="2022-01-29T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupRequestSpecification -->
-        <test-method status="PASS" signature="getJIRAIssues()[pri:0, instance:services.GetAllJIRAIssues@17f3d0]" name="getJIRAIssues" duration-ms="490" started-at="2022-01-29T15:28:42Z" finished-at="2022-01-29T15:28:43Z">
+        <test-method status="PASS" signature="getJIRAIssues()[pri:0, instance:services.GetAllJIRAIssues@1f9b098]" name="getJIRAIssues" duration-ms="412" started-at="2022-01-29T15:49:22Z" finished-at="2022-01-29T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getJIRAIssues -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.GetAllJIRAIssues@17f3d0]" name="tearDown" is-config="true" duration-ms="11" started-at="2022-01-29T15:28:43Z" finished-at="2022-01-29T15:28:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.GetAllJIRAIssues@1f9b098]" name="tearDown" is-config="true" duration-ms="16" started-at="2022-01-29T15:49:22Z" finished-at="2022-01-29T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- services.GetAllJIRAIssues -->
       <class name="services.UpdateJIRAIssue">
-        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.UpdateJIRAIssue@14361a9]" name="setupRequestSpecification" is-config="true" duration-ms="1" started-at="2022-01-29T15:28:41Z" finished-at="2022-01-29T15:28:41Z">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.UpdateJIRAIssue@e9319f]" name="setupRequestSpecification" is-config="true" duration-ms="0" started-at="2022-01-29T15:49:20Z" finished-at="2022-01-29T15:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupRequestSpecification -->
-        <test-method status="PASS" signature="updateJIRAIssue()[pri:0, instance:services.UpdateJIRAIssue@14361a9]" name="updateJIRAIssue" duration-ms="622" started-at="2022-01-29T15:28:41Z" depends-on-methods="services.CreateNewJIRAIssue.createNewJIRAIssue" finished-at="2022-01-29T15:28:42Z">
+        <test-method status="PASS" signature="updateJIRAIssue()[pri:0, instance:services.UpdateJIRAIssue@e9319f]" name="updateJIRAIssue" duration-ms="505" started-at="2022-01-29T15:49:20Z" depends-on-methods="services.CreateNewJIRAIssue.createNewJIRAIssue" finished-at="2022-01-29T15:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateJIRAIssue -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.UpdateJIRAIssue@14361a9]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-29T15:28:42Z" finished-at="2022-01-29T15:28:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.UpdateJIRAIssue@e9319f]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-29T15:49:21Z" finished-at="2022-01-29T15:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- services.UpdateJIRAIssue -->
       <class name="services.DeleteJIRAIssue">
-        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.DeleteJIRAIssue@232e55]" name="setupRequestSpecification" is-config="true" duration-ms="1" started-at="2022-01-29T15:28:42Z" finished-at="2022-01-29T15:28:42Z">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.DeleteJIRAIssue@e34f77]" name="setupRequestSpecification" is-config="true" duration-ms="0" started-at="2022-01-29T15:49:21Z" finished-at="2022-01-29T15:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupRequestSpecification -->
-        <test-method status="PASS" signature="deleteJIRAIssue()[pri:0, instance:services.DeleteJIRAIssue@232e55]" name="deleteJIRAIssue" duration-ms="735" started-at="2022-01-29T15:28:42Z" depends-on-methods="services.UpdateJIRAIssue.updateJIRAIssue" finished-at="2022-01-29T15:28:42Z">
+        <test-method status="PASS" signature="deleteJIRAIssue()[pri:0, instance:services.DeleteJIRAIssue@e34f77]" name="deleteJIRAIssue" duration-ms="869" started-at="2022-01-29T15:49:21Z" depends-on-methods="services.UpdateJIRAIssue.updateJIRAIssue" finished-at="2022-01-29T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteJIRAIssue -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.DeleteJIRAIssue@232e55]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-29T15:28:42Z" finished-at="2022-01-29T15:28:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.DeleteJIRAIssue@e34f77]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-29T15:49:22Z" finished-at="2022-01-29T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -11,6 +11,30 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- services.CreateNewJIRAIssue -->
+      <class name="services.DeleteJIRAIssue">
+        <methods>
+          <include name="setup"/>
+          <include name="setupRequestSpecification"/>
+          <include name="tearDown"/>
+          <include name="deleteJIRAIssue"/>
+        </methods>
+      </class> <!-- services.DeleteJIRAIssue -->
+      <class name="services.GetAllJIRAIssues">
+        <methods>
+          <include name="setup"/>
+          <include name="setupRequestSpecification"/>
+          <include name="getJIRAIssues"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- services.GetAllJIRAIssues -->
+      <class name="services.UpdateJIRAIssue">
+        <methods>
+          <include name="updateJIRAIssue"/>
+          <include name="setup"/>
+          <include name="setupRequestSpecification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- services.UpdateJIRAIssue -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
