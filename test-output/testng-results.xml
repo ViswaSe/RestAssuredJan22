@@ -1,111 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8079" started-at="2022-01-29T20:53:55Z" finished-at="2022-01-29T20:54:03Z">
+  <suite name="Suite" duration-ms="6545" started-at="2022-01-30T06:57:29Z" finished-at="2022-01-30T06:57:36Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="8079" started-at="2022-01-29T20:53:55Z" finished-at="2022-01-29T20:54:03Z">
-      <class name="runner.TestNGRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="setUpClass" is-config="true" duration-ms="343" started-at="2022-01-29T20:53:55Z" finished-at="2022-01-29T20:53:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@921450]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="6545" started-at="2022-01-30T06:57:29Z" finished-at="2022-01-30T06:57:36Z">
+      <class name="services.CreateNewJIRAIssue">
+        <test-method status="PASS" signature="setup()[pri:0, instance:services.CreateNewJIRAIssue@185cbcb]" name="setup" is-config="true" duration-ms="939" started-at="2022-01-30T06:57:28Z" finished-at="2022-01-30T06:57:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="runScenario" duration-ms="3532" started-at="2022-01-29T20:53:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T20:53:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create New JIRA issue"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[JIRA - Atlassian module]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.CreateNewJIRAIssue@185cbcb]" name="setupRequestSpecification" is-config="true" duration-ms="341" started-at="2022-01-30T06:57:29Z" finished-at="2022-01-30T06:57:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="runScenario" duration-ms="911" started-at="2022-01-29T20:53:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T20:54:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create New JIRA issue"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[JIRA - Atlassian module]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setupRequestSpecification -->
+        <test-method status="PASS" signature="createNewJIRAIssue()[pri:0, instance:services.CreateNewJIRAIssue@185cbcb]" name="createNewJIRAIssue" duration-ms="4011" started-at="2022-01-30T06:57:30Z" finished-at="2022-01-30T06:57:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="runScenario" duration-ms="547" started-at="2022-01-29T20:54:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T20:54:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Update JIRA issue via chaining"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[JIRA - Atlassian module]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- createNewJIRAIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.CreateNewJIRAIssue@185cbcb]" name="tearDown" is-config="true" duration-ms="41" started-at="2022-01-30T06:57:34Z" finished-at="2022-01-30T06:57:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="runScenario" duration-ms="890" started-at="2022-01-29T20:54:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T20:54:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Delete JIRA issue via chaining"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[JIRA - Atlassian module]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tearDown -->
+      </class> <!-- services.CreateNewJIRAIssue -->
+      <class name="services.GetAllJIRAIssues">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.GetAllJIRAIssues@12a7fce]" name="setupRequestSpecification" is-config="true" duration-ms="5" started-at="2022-01-30T06:57:35Z" finished-at="2022-01-30T06:57:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="runScenario" duration-ms="1723" started-at="2022-01-29T20:54:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T20:54:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Get All JIRA issues"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[JIRA - Atlassian module]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setupRequestSpecification -->
+        <test-method status="PASS" signature="getJIRAIssues()[pri:0, instance:services.GetAllJIRAIssues@12a7fce]" name="getJIRAIssues" duration-ms="540" started-at="2022-01-30T06:57:35Z" finished-at="2022-01-30T06:57:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner@1aa8d82]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2022-01-29T20:54:03Z" finished-at="2022-01-29T20:54:03Z">
+        </test-method> <!-- getJIRAIssues -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.GetAllJIRAIssues@12a7fce]" name="tearDown" is-config="true" duration-ms="10" started-at="2022-01-30T06:57:36Z" finished-at="2022-01-30T06:57:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.TestNGRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- services.GetAllJIRAIssues -->
+      <class name="services.UpdateJIRAIssue">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.UpdateJIRAIssue@f46e16]" name="setupRequestSpecification" is-config="true" duration-ms="2" started-at="2022-01-30T06:57:34Z" finished-at="2022-01-30T06:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpecification -->
+        <test-method status="PASS" signature="updateJIRAIssue()[pri:0, instance:services.UpdateJIRAIssue@f46e16]" name="updateJIRAIssue" duration-ms="573" started-at="2022-01-30T06:57:34Z" depends-on-methods="services.CreateNewJIRAIssue.createNewJIRAIssue" finished-at="2022-01-30T06:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJIRAIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.UpdateJIRAIssue@f46e16]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-01-30T06:57:34Z" finished-at="2022-01-30T06:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- services.UpdateJIRAIssue -->
+      <class name="services.DeleteJIRAIssue">
+        <test-method status="PASS" signature="setupRequestSpecification()[pri:0, instance:services.DeleteJIRAIssue@9168dc]" name="setupRequestSpecification" is-config="true" duration-ms="2" started-at="2022-01-30T06:57:34Z" finished-at="2022-01-30T06:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpecification -->
+        <test-method status="PASS" signature="deleteJIRAIssue()[pri:0, instance:services.DeleteJIRAIssue@9168dc]" name="deleteJIRAIssue" duration-ms="824" started-at="2022-01-30T06:57:34Z" depends-on-methods="services.UpdateJIRAIssue.updateJIRAIssue" finished-at="2022-01-30T06:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteJIRAIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:services.DeleteJIRAIssue@9168dc]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-01-30T06:57:35Z" finished-at="2022-01-30T06:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- services.DeleteJIRAIssue -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
