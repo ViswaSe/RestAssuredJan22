@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="services.CreateNewJIRAIssue">
+      <class name="runner.TestNGRunner">
         <methods>
-          <include name="createNewJIRAIssue"/>
-          <include name="setup"/>
-          <include name="setupRequestSpecification"/>
-          <include name="tearDown"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- services.CreateNewJIRAIssue -->
+      </class> <!-- runner.TestNGRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
